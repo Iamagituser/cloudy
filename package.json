@@ -1,0 +1,19 @@
+{
+  "name": "cloudy",
+  "version": "1.0.0",
+  "description": "This is a lightweight css framework designed for osilico",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Iamagituser/cloudy.git"
+  },
+  "author": "Davinder Brar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Iamagituser/cloudy/issues"
+  },
+  "homepage": "https://github.com/Iamagituser/cloudy#readme"
+}
