@@ -1,15 +1,23 @@
-h2{margin:0;
+@import './scss/colors.scss';
+.head{margin:0;
     font-size:56px;
-    font-weight:600;
+    font-weight:550;
     letter-spacing: -0.30px;
     line-height: 60px;
 }
-h3{
+.sub-lg{
     margin-top: 6px;
     font-weight:400;
     font-size:28px;
     letter-spacing: 0.112px;
     line-height: 31px;
+}
+.sub-sm{
+    font-size: 21px;
+    line-height: 1.2381;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin-top: 4px;
 }
 p{
     font-weight:400;
@@ -21,24 +29,43 @@ a{
     text-decoration: none;
 }
 .link{
-    font-size:24px;  
+    font-size:24px;
+    color: $linkColor;
 }
-.link::after{
-        content: ">";
-        font-weight: bold;
+a::after{
+        content: ">";     
     
 }
 
 
 @media only screen and(max-width:1000px){
-    h2{
+    .head{
         font-size:32px;
-        font-weight:600;
+        font-weight:550;
         letter-spacing: 0.128px;
         line-height: 0.8em;
     }
     .link{
         font-size:21px;
     }
+    a::after{
+        content: ">";
+        font-size: 21px;
+    
+}
+.sub-lg{
+    margin-top: 6px;
+    font-weight:400;
+    font-size:21px;
+    letter-spacing: 0.112px;
+    line-height: 31px;
+}
+.sub-sm{
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: .016em;
+    margin-top: 4px;
+}
     
 }
